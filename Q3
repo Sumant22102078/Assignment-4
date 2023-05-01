@@ -1,0 +1,14 @@
+import random
+
+n = 0
+while n <= 10:
+    n += 1
+    a = random.randint(1,9)
+    b = random.randint(1,9)
+    ans = int(input(f"Q{n}: {a} X {b} = "))
+    if ans == a*b:
+        print('Right!')
+    else:
+        print(f"Wrong. The answer is {a*b}.")
+else:
+    print("Press F5 to play again.")
