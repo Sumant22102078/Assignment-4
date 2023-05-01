@@ -1,0 +1,8 @@
+candy = 0
+while candy < 200:
+    candy += 1
+    if candy % 5 == 2:
+        if candy % 6 == 3:
+            if candy % 7 == 2:
+                print(f"There are {candy} candies in the jar.")
+                break
